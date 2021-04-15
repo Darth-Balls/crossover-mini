@@ -10,11 +10,15 @@ function Sidebar() {
                 <li><h3><FcHome />Home</h3></li>
                 <li><h3><HiHashtag />Give more time</h3></li>
                 <li><h3><GrNotification />Notifications</h3></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+
+
+
+
+
+
+
+
+
             </ul>
 
             
