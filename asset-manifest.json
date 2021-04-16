@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/crossover-mini/static/css/main.c4f5baa1.chunk.css",
+    "main.js": "/crossover-mini/static/js/main.a8ae591c.chunk.js",
+    "main.js.map": "/crossover-mini/static/js/main.a8ae591c.chunk.js.map",
+    "runtime-main.js": "/crossover-mini/static/js/runtime-main.ec0afcad.js",
+    "runtime-main.js.map": "/crossover-mini/static/js/runtime-main.ec0afcad.js.map",
+    "static/js/2.6545368d.chunk.js": "/crossover-mini/static/js/2.6545368d.chunk.js",
+    "static/js/2.6545368d.chunk.js.map": "/crossover-mini/static/js/2.6545368d.chunk.js.map",
+    "index.html": "/crossover-mini/index.html",
+    "static/css/main.c4f5baa1.chunk.css.map": "/crossover-mini/static/css/main.c4f5baa1.chunk.css.map",
+    "static/js/2.6545368d.chunk.js.LICENSE.txt": "/crossover-mini/static/js/2.6545368d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec0afcad.js",
+    "static/js/2.6545368d.chunk.js",
+    "static/css/main.c4f5baa1.chunk.css",
+    "static/js/main.a8ae591c.chunk.js"
+  ]
+}
