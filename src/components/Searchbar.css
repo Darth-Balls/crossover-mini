@@ -1,0 +1,8 @@
+.searchbar{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: .1rem solid var(--twitter-background);
+    padding: 1.5rem 2rem;
+}

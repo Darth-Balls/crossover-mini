@@ -6,32 +6,27 @@ import {RiMessage2Line} from 'react-icons/ri';
 import {CgMoreO} from 'react-icons/cg';
 import {CgProfile} from 'react-icons/cg';
 import {IoLogoTwitter} from 'react-icons/io';
-
-import {BsFillBookmarkFill} from 'react-icons/bs'
-import {TiThListOutline} from 'react-icons/ti'
+import {BsFillBookmarkFill} from 'react-icons/bs';
+import {TiThListOutline} from 'react-icons/ti';
+import SidebarOptions from './SidebarOptions';
+import "./Sidebar.css"
 
 
 function Sidebar() {
     return (
-        <div className="icons">
-            <IoLogoTwitter />
-            <ul className="sidebar-list">
-                <li><h3><FcHome />Home</h3></li>
-                <li><h3><HiHashtag />Explore</h3></li>
-                <li><h3><GrNotification />Notifications</h3></li>
-                <li><h3><RiMessage2Line />Messages</h3></li>
+        <div className="sidebar">
+            <IoLogoTwitter className="sidebar__twitterIcon" />
+            
+                <SidebarOptions className="sidebar-icons" Icon={FcHome} text="Home" />
+                <SidebarOptions Icon={HiHashtag} text="Explore" />
+                <SidebarOptions Icon={GrNotification} text="Notifications" />
+                <SidebarOptions Icon={RiMessage2Line} text="Messages" />
+                <SidebarOptions Icon={BsFillBookmarkFill} text="Bookmark" />
+                <SidebarOptions Icon={TiThListOutline} text="Lists" />
+                <SidebarOptions Icon={CgProfile}text="Profile" />
+                <SidebarOptions Icon={CgMoreO} text="More" />
 
-                <li><h3><BsFillBookmarkFill />Bookmark</h3></li>
-                <li><h3><TiThListOutline />Lists</h3></li>
-                <li><h3><CgProfile />Profile</h3></li>
-                <li><h3><CgMoreO /> More</h3></li>
-
-
-                <li><h3><CgProfile />Profile</h3></li>
-                <li><h3><CgMoreO /> More...</h3></li>
-
-            </ul>
-            <button className="tweet-btn">Chiu Chiu Tweet</button> 
+            <button className="sidebar__tweet">Tweet</button> 
 
             
         </div>

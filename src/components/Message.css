@@ -1,0 +1,26 @@
+.message {
+    flex: 0.7;
+    border-right: 0.1rem solid var(--twitter-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+  }
+  
+  /* Hide scrollbar for all browsers */
+  .message::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .message {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: .1rem solid var(--twitter-background);
+    padding: 1.5rem 2rem;
+  }
+  
+  .message > div {
+    font-size: 2rem;
+    font-weight: 500;
+  }
