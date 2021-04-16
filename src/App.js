@@ -8,6 +8,10 @@ import Message from './components/Message';
 function App() {
   return (
     <div className="App">
+
+      {/* <h1>Hello</h1> */}
+
+
        <Sidebar />
        <Switch>
         <Route>
@@ -17,11 +21,21 @@ function App() {
   
       <div className="Main">
         <Message />
+
       </div> 
      
-    </div>
+
   );
 }
 
 export default App;
 
+       {/* <Sidebar />
+       <Switch>
+        <Route>
+          <Route path="/messages/:id" />
+        </Route>
+      </Switch> 
+  
+      <div className="Main">
+        <Message />    </div> */}
