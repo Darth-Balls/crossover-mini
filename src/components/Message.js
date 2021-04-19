@@ -49,13 +49,15 @@ function Message() {
                   className="Searchbar"
                   onChange={(e) => filterMessages(e.target.value)}
                 />
+
                 <BsSearch />
                 <div className="Tweets"> 
                 {displayMessages.map(message => (
                  <div className="Tweet-Container" key={message.id}>
                      {/* https://reactjs.org/docs/lists-and-keys.html */}
                      {/* Keys help React identify which items have changed, are added, or are removed. Keys should be given to the elements inside the array to give the elements a stable identity: */}
-                    <div>{message.text}</div>
+                    <div>{message.text}</div>    
+                    {/* single items in the array should be difined in singular terms (e.g. 'message' and not 'messages') */}
                     <div>{message.author.name}</div>
                     <div>{message.date}</div>
                     <img src={message.image} width='650'/>
